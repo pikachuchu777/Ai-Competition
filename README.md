@@ -1,6 +1,6 @@
 # Transaction Alert Prediction
 
-This project addresses the Account Alert Prediction task by modeling financial transactions as a heterogeneous interaction graph.
+This project addresses the account alert prediction task by modeling financial transactions as a heterogeneous interaction graph.
 
 ## 📖 Model Overview
 
