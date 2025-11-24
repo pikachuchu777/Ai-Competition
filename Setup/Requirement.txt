@@ -1,0 +1,11 @@
+conda create -n pyg_env python=3.9 -y
+conda activate pyg_env
+
+pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu118
+
+pip install pyg-lib torch-scatter torch-sparse torch-cluster torch-spline-conv \
+  -f https://data.pyg.org/whl/torch-2.7.1+cu118.html
+
+pip install torch-geometric
+pip install pandas
+pip install scikit-learn
